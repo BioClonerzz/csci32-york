@@ -8,7 +8,7 @@ export default function Home() {
       </a>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex bg-gray-100 transparent rounded-lg shadow-sm p-2">
         <h1 className="font-serif text-5xl font-extrabold text-blue-300">
-          Brad's Home Page
+          {`Brad's Home Page`}
         </h1>
         <div className="font-serif fixed bottom-0 left-0 flex h-48 w-full items-center justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none gap-2">
           <a
@@ -96,7 +96,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            While unprofessional, who doesen't wanna see an adorable German Shepard mix!
+            {`While unprofessional, who doesen't wanna see an adorable German Shepard mix!`}
           </p>
         </a>
       </div>
